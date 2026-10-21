@@ -1,0 +1,9 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+python-multipart>=0.0.20,<1
+pydantic-settings>=2.7,<3
+httpx>=0.28,<1
+minio>=7.2,<8
+openslide-python>=1.4,<2
+openslide-bin>=4,<5
+Pillow>=11,<12
