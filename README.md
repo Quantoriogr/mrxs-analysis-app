@@ -27,13 +27,13 @@ models will be available for individual selection in the frontend.
 After starting the app, open `http://localhost:8000` (or the port configured by
 `APP_PORT` in `.env`).
 
-1. **Load an image.** Upload a MIRAX slide or a ZIP containing the slide and its
-   companion files. Use the crop toggle to switch from OpenSeadragon's normal
+1. **Load an image.** Upload a MIRAX slide in the form of a ZIP containing the `.mrxs` and a folder of its
+   companion `.dat` files. Use the crop toggle to switch from OpenSeadragon's normal
    navigation to drawing an area of interest. Turn cropping off to resume
    navigation. Alternatively, upload an already cropped JPEG, or a ZIP containing
    multiple JPEG images.
 2. **Add a prompt.** Upload a plain-text (`.txt`) file containing the analysis
-   instructions. An example prompt file is the `single_image_scoring.txt` in the root directory of the repo.
+   instructions.
 3. **Select models and analyze.** Choose the models to use and start the analysis.
    Each JPEG image is analyzed separately by every selected model. Multiple
    image/model requests currently run concurrently.
