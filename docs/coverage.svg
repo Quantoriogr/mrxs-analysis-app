@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="181" height="20" role="img" aria-label="backend coverage: 94%">
+  <title>backend coverage: 94%</title>
+  <rect width="140" height="20" fill="#555"/>
+  <rect x="140" width="41" height="20" fill="#4c1"/>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11">
+    <text x="70" y="14">backend coverage</text>
+    <text x="160" y="14">94%</text>
+  </g>
+</svg>
